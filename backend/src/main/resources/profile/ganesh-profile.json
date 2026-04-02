@@ -5,20 +5,20 @@
   "about": "Java Backend Developer with 3+ years of experience in building scalable backend systems. Worked in cybersecurity domain at Atos (Eviden), developing microservices and ETL pipelines using Apache NiFi and Spring Boot.",
 
   "skills": [
-    "Java 8",
-    "Spring Boot",
-    "Microservices",
-    "AWS (EC2, S3, IAM)",
-    "Apache NiFi (15+ custom processors)",
-    "MySQL",
-    "PostgreSQL",
-    "REST APIs",
-    "Kafka"
+    { "name": "Java 8" },
+    { "name": "Spring Boot" },
+    { "name": "Microservices" },
+    { "name": "AWS (EC2, S3, IAM)" },
+    { "name": "Apache NiFi (15+ custom processors)" },
+    { "name": "MySQL" },
+    { "name": "PostgreSQL" },
+    { "name": "REST APIs" },
+    { "name": "Kafka" }
   ],
 
   "experience": [
     {
-      "company": "Atos / Eviden",
+      "company": "Atos",
       "role": "Java Backend Developer",
       "duration": "3+ years",
       "description": "Worked on cybersecurity platform (AISAAC), building microservices for onboarding, log ingestion, and cloud automation. Developed ETL pipelines using Apache NiFi and integrated AWS services for infrastructure provisioning."
