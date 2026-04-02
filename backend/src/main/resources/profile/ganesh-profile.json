@@ -1,111 +1,42 @@
 {
-  "hero": {
-    "summary": "Ganesh is a backend-focused software developer specializing in Java, Spring Boot, microservices, scalable REST APIs, and production-grade cloud architectures. He enjoys building resilient systems that are easy to maintain, observe, and extend.",
-    "stats": [
-      { "value": "4+", "label": "Years building backend systems" },
-      { "value": "12+", "label": "Production APIs and services delivered" },
-      { "value": "99.9%", "label": "Reliability mindset for critical flows" }
-    ]
-  },
-  "highlights": [
-    {
-      "title": "API Architecture",
-      "description": "Designing secure REST APIs, clear service contracts, and maintainable domain layers for long-term product growth."
-    },
-    {
-      "title": "Cloud Readiness",
-      "description": "Preparing services for containerized deployment, observability, configuration management, and scale."
-    },
-    {
-      "title": "AI Integration",
-      "description": "Connecting business applications with LLM workflows and practical AI features through clean backend boundaries."
-    }
-  ],
-  "about": "Ganesh builds backend applications with a focus on reliability, performance, and developer-friendly architecture. His work spans Spring Boot services, relational databases, integrations, authentication, and deployment pipelines, with an emphasis on delivering features that feel stable in production.",
-  "strengths": [
-    {
-      "title": "System Thinking",
-      "description": "Balances clean architecture with real delivery needs, keeping APIs, data access, and observability aligned."
-    },
-    {
-      "title": "Performance Focus",
-      "description": "Looks closely at query efficiency, service latency, and operational reliability to keep systems responsive."
-    },
-    {
-      "title": "Team Collaboration",
-      "description": "Partners well across product and frontend teams to deliver backend foundations that unblock fast iteration."
-    },
-    {
-      "title": "Production Discipline",
-      "description": "Builds with validation, environment separation, secure config, and deployment readiness from the start."
-    }
-  ],
+  "name": "Ganesh",
+  "title": "Java Backend Developer",
+
+  "about": "Java Backend Developer with 3+ years of experience in building scalable backend systems. Worked in cybersecurity domain at Atos (Eviden), developing microservices and ETL pipelines using Apache NiFi and Spring Boot.",
+
   "skills": [
-    {
-      "category": "Languages",
-      "items": ["Java", "SQL", "JavaScript", "HTML", "CSS"]
-    },
-    {
-      "category": "Backend",
-      "items": ["Spring Boot", "REST APIs", "Microservices", "Hibernate", "JPA"]
-    },
-    {
-      "category": "Data & Infra",
-      "items": ["MySQL", "PostgreSQL", "Redis", "Docker", "Nginx"]
-    },
-    {
-      "category": "Practices",
-      "items": ["System Design", "Testing", "CI/CD", "OpenAI API", "Monitoring"]
-    }
+    "Java 8",
+    "Spring Boot",
+    "Microservices",
+    "AWS (EC2, S3, IAM)",
+    "Apache NiFi (15+ custom processors)",
+    "MySQL",
+    "PostgreSQL",
+    "REST APIs",
+    "Kafka"
   ],
-  "projects": [
-    {
-      "name": "Enterprise Order Processing Platform",
-      "description": "A Spring Boot microservice platform for order orchestration, inventory coordination, and status tracking across multiple internal systems.",
-      "stack": ["Java", "Spring Boot", "MySQL", "Docker"],
-      "impact": "Improved processing visibility and reduced operational delays with auditable service workflows."
-    },
-    {
-      "name": "API Gateway for Customer Services",
-      "description": "A backend gateway layer consolidating authentication, routing, logging, and service composition for customer-facing applications.",
-      "stack": ["Spring Security", "REST", "Redis", "Nginx"],
-      "impact": "Simplified frontend integration and strengthened cross-service security and observability."
-    },
-    {
-      "name": "AI Resume Assistant Integration",
-      "description": "An OpenAI-backed conversational assistant that answers recruiter and hiring-manager questions using portfolio and resume context.",
-      "stack": ["Spring Boot", "OpenAI API", "React", "Tailwind"],
-      "impact": "Created a more interactive way to evaluate experience, project depth, and backend expertise."
-    }
-  ],
+
   "experience": [
     {
-      "title": "Java Backend Developer",
-      "company": "Ganesh Portfolio Profile",
-      "period": "Recent experience",
-      "summary": "Delivered backend solutions for business applications with a focus on Spring Boot APIs, database design, service integrations, and production readiness.",
-      "highlights": [
-        "Built scalable REST endpoints for application workflows and reporting",
-        "Improved maintainability with layered service architecture and DTO-based APIs",
-        "Supported deployment readiness with environment-based configuration and containerization"
-      ]
-    },
-    {
-      "title": "Backend Engineer",
-      "company": "Platform and Product Teams",
-      "period": "Earlier experience",
-      "summary": "Worked across integration-heavy backend systems, translating product requirements into stable services and maintainable data flows.",
-      "highlights": [
-        "Collaborated with frontend teams to define clean API contracts",
-        "Focused on debugging, optimization, and sustainable code quality",
-        "Contributed to dependable delivery across development and deployment cycles"
-      ]
+      "company": "Atos / Eviden",
+      "role": "Java Backend Developer",
+      "duration": "3+ years",
+      "description": "Worked on cybersecurity platform (AISAAC), building microservices for onboarding, log ingestion, and cloud automation. Developed ETL pipelines using Apache NiFi and integrated AWS services for infrastructure provisioning."
     }
   ],
-  "contact": {
-    "email": "ganesh@example.com",
-    "github": "https://github.com/ganesh",
-    "linkedin": "https://linkedin.com/in/ganesh",
-    "location": "India"
-  }
+
+  "projects": [
+    {
+      "name": "AI-Powered Portfolio",
+      "description": "Personal portfolio integrated with AI agent to answer questions about my experience and skills using OpenAI API."
+    },
+    {
+      "name": "Log Processing System",
+      "description": "Built ETL pipelines using Apache NiFi to process and transform security logs from multiple sources."
+    },
+    {
+      "name": "Cloud Automation Microservice",
+      "description": "Developed Spring Boot microservice to automate AWS infrastructure provisioning using CloudFormation."
+    }
+  ]
 }
