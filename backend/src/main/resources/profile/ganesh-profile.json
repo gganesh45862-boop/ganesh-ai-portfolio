@@ -53,7 +53,8 @@
         "Microservices",
         "REST APIs",
         "Hibernate",
-        "JPA"
+        "JPA",
+		"Apache nifi"
       ]
     },
     {
@@ -106,10 +107,10 @@
 
   "experience": [
     {
-      "title": "Java Backend Developer",
-      "company": "Atos (Eviden)",
-      "period": "3+ years",
-      "summary": "Worked on cybersecurity platform (AISAAC), building microservices for onboarding, log ingestion, and cloud automation.",
+      "title": "Java Developer",
+      "company": "Atos",
+      "period": "4 years",
+      "summary": "Worked on cybersecurity platform (AISAAC), building microservices for onboarding, log ingestion, and cloud automation using Spring Boot. Also contributed to frontend development using Angular, building LEC Management dashboards to visualize NiFi server metrics, active agents, and cache performance for improved operational visibility.",
       "highlights": [
         "Developed microservices using Spring Boot",
         "Built 15+ Apache NiFi processors",
@@ -121,9 +122,10 @@
   ],
 
   "contact": {
-    "email": "your-email@gmail.com",
-    "github": "https://github.com/YOUR-USERNAME/ganesh-ai-portfolio",
-    "linkedin": "https://www.linkedin.com/in/YOUR-LINKEDIN",
-    "location": "India"
+    "email": "gganesh4586@gmail.com",
+    "github": "https://github.com/gganesh45862-boop/ganesh-ai-portfolio",
+    "linkedin": "https://www.linkedin.com/in/kuruva-ganesh",
+    "location": "Bengaluru",
+	"Mobile":"9849749610"
   }
 }
