@@ -66,7 +66,7 @@ Set environment variables before starting:
 ```bash
 export OPENAI_API_KEY=your_openai_api_key
 export OPENAI_MODEL=gpt-4.1-mini
-export APP_CORS_ALLOWED_ORIGINS=http://localhost:5173
+export APP_CORS_ALLOWED_ORIGIN_PATTERNS=http://localhost:5173,http://localhost:3000,https://*.vercel.app
 ```
 
 Then run:
@@ -83,7 +83,7 @@ The backend runs on `http://localhost:8080`.
 cd backend
 $env:OPENAI_API_KEY="your_openai_api_key"
 $env:OPENAI_MODEL="gpt-4.1-mini"
-$env:APP_CORS_ALLOWED_ORIGINS="http://localhost:5173"
+$env:APP_CORS_ALLOWED_ORIGIN_PATTERNS="http://localhost:5173,http://localhost:3000,https://*.vercel.app"
 mvn spring-boot:run
 ```
 
@@ -111,7 +111,7 @@ Set environment variables in your shell:
 ```bash
 export OPENAI_API_KEY=your_openai_api_key
 export OPENAI_MODEL=gpt-4.1-mini
-export APP_CORS_ALLOWED_ORIGINS=http://localhost:3000
+export APP_CORS_ALLOWED_ORIGIN_PATTERNS=http://localhost:3000,https://*.vercel.app
 ```
 
 Run:

@@ -35,11 +35,12 @@ function App() {
       try {
         const response = await fetch(`${API_BASE_URL}/api/portfolio`);
         if (!response.ok) {
-          throw new Error('Failed to load portfolio data.');
+          throw new Error(`Failed to load portfolio data (${response.status}).`);
         }
         const data = await response.json();
         setPortfolio(data);
       } catch (error) {
+        console.error('Portfolio fetch failed:', error);
         setPortfolio(fallbackPortfolio);
       } finally {
         setLoading(false);
@@ -71,12 +72,13 @@ function App() {
       });
 
       if (!response.ok) {
-        throw new Error('The AI service is unavailable right now.');
+        throw new Error(`The AI service is unavailable right now (${response.status}).`);
       }
 
       const data = await response.json();
       setMessages((current) => [...current, { role: 'assistant', content: data.answer }]);
     } catch (error) {
+      console.error('AI request failed:', error);
       setChatError('Unable to reach the AI backend right now. Please try again after configuring the API.');
       setMessages((current) => [
         ...current,
