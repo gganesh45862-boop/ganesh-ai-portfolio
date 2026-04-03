@@ -2,7 +2,12 @@
   "name": "Ganesh",
   "title": "Java Backend Developer",
 
+  "hero": null,
+  "highlights": null,
+
   "about": "Java Backend Developer with 3+ years of experience in building scalable backend systems. Worked in cybersecurity domain at Atos (Eviden), developing microservices and ETL pipelines using Apache NiFi and Spring Boot.",
+
+  "strengths": null,
 
   "skills": [
     { "name": "Java 8" },
@@ -14,15 +19,6 @@
     { "name": "PostgreSQL" },
     { "name": "REST APIs" },
     { "name": "Kafka" }
-  ],
-
-  "experience": [
-    {
-      "company": "Atos",
-      "role": "Java Backend Developer",
-      "duration": "3+ years",
-      "description": "Worked on cybersecurity platform (AISAAC), building microservices for onboarding, log ingestion, and cloud automation. Developed ETL pipelines using Apache NiFi and integrated AWS services for infrastructure provisioning."
-    }
   ],
 
   "projects": [
@@ -38,5 +34,16 @@
       "name": "Cloud Automation Microservice",
       "description": "Developed Spring Boot microservice to automate AWS infrastructure provisioning using CloudFormation."
     }
-  ]
+  ],
+
+  "experience": [
+    {
+      "company": "Atos",
+      "role": "Java Backend Developer",
+      "duration": "3+ years",
+      "description": "Worked on cybersecurity platform (AISAAC), building microservices for onboarding, log ingestion, and cloud automation."
+    }
+  ],
+
+  "contact": null
 }

@@ -511,9 +511,9 @@ const fallbackPortfolio = {
     },
   ],
   contact: {
-    email: 'ganesh@example.com',
+    email: 'gganesh45862@gmail.com',
     github: 'https://github.com/ganesh',
-    linkedin: 'https://linkedin.com/in/ganesh',
+    linkedin: 'https://www.linkedin.com/in/kuruva-ganesh',
     location: 'India',
   },
 };
