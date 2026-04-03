@@ -1,46 +1,129 @@
 {
-  "name": "Ganesh",
-  "title": "Java Backend Developer",
+  "hero": {
+    "summary": "Java Backend Developer with 3+ years of experience building scalable backend systems, microservices, and ETL pipelines in cybersecurity domain (Atos / Eviden). Specialized in Spring Boot, Apache NiFi, and cloud-based architectures.",
+    "stats": [
+      { "value": "3+", "label": "Years Experience" },
+      { "value": "15+", "label": "NiFi Processors Built" },
+      { "value": "100K+", "label": "Events Processed / Min" }
+    ]
+  },
+
+  "highlights": [
+    {
+      "title": "Microservices Architecture",
+      "description": "Designed and developed scalable microservices using Spring Boot for onboarding, log processing, and automation workflows."
+    },
+    {
+      "title": "ETL & Data Pipelines",
+      "description": "Built robust ETL pipelines using Apache NiFi to process large-scale security logs with high reliability."
+    },
+    {
+      "title": "Cloud & Automation",
+      "description": "Automated AWS infrastructure provisioning using CloudFormation, EC2, S3, and IAM integrations."
+    }
+  ],
 
   "about": "Java Backend Developer with 3+ years of experience in building scalable backend systems. Worked in cybersecurity domain at Atos (Eviden), developing microservices and ETL pipelines using Apache NiFi and Spring Boot.",
 
-  "strengths": null,
+  "strengths": [
+    {
+      "title": "System Design",
+      "description": "Strong understanding of microservices architecture, API design, and scalable backend systems."
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "Experienced in optimizing queries, improving system performance, and handling large data volumes."
+    },
+    {
+      "title": "Cloud Integration",
+      "description": "Hands-on experience with AWS services like EC2, S3, IAM, and infrastructure automation."
+    },
+    {
+      "title": "Problem Solving",
+      "description": "Debugging production issues, handling edge cases, and ensuring system reliability."
+    }
+  ],
 
   "skills": [
-    { "name": "Java 8" },
-    { "name": "Spring Boot" },
-    { "name": "Microservices" },
-    { "name": "AWS (EC2, S3, IAM)" },
-    { "name": "Apache NiFi (15+ custom processors)" },
-    { "name": "MySQL" },
-    { "name": "PostgreSQL" },
-    { "name": "REST APIs" },
-    { "name": "Kafka" }
+    {
+      "category": "Backend",
+      "items": [
+        "Java 8",
+        "Spring Boot",
+        "Microservices",
+        "REST APIs",
+        "Hibernate",
+        "JPA"
+      ]
+    },
+    {
+      "category": "Cloud & Messaging",
+      "items": [
+        "AWS (EC2, S3, IAM)",
+        "Kafka",
+        "Apache NiFi"
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [
+        "MySQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "category": "Tools & Practices",
+      "items": [
+        "Git",
+        "JUnit",
+        "Mockito",
+        "Postman",
+        "CI/CD"
+      ]
+    }
   ],
 
   "projects": [
     {
       "name": "AI-Powered Portfolio",
-      "description": "Personal portfolio integrated with AI agent to answer questions about my experience and skills using OpenAI API."
+      "description": "Developed a personal portfolio integrated with an AI agent to answer recruiter questions using OpenAI API.",
+      "stack": ["React", "Spring Boot", "OpenAI API"],
+      "impact": "Created an interactive resume experience improving recruiter engagement."
     },
     {
       "name": "Log Processing System",
-      "description": "Built ETL pipelines using Apache NiFi to process and transform security logs from multiple sources."
+      "description": "Built ETL pipelines using Apache NiFi to process and transform large-scale security logs.",
+      "stack": ["Apache NiFi", "Java", "ETL"],
+      "impact": "Handled high-volume log ingestion with zero data loss."
     },
     {
       "name": "Cloud Automation Microservice",
-      "description": "Developed Spring Boot microservice to automate AWS infrastructure provisioning using CloudFormation."
+      "description": "Developed Spring Boot microservice to automate AWS infrastructure provisioning using CloudFormation.",
+      "stack": ["Spring Boot", "AWS", "CloudFormation"],
+      "impact": "Reduced manual effort and improved deployment speed."
     }
   ],
 
   "experience": [
     {
-      "company": "Atos",
-      "role": "Java Backend Developer",
-      "duration": "3+ years",
-      "description": "Worked on cybersecurity platform (AISAAC), building microservices for onboarding, log ingestion, and cloud automation."
+      "title": "Java Backend Developer",
+      "company": "Atos (Eviden)",
+      "period": "3+ years",
+      "summary": "Worked on cybersecurity platform (AISAAC), building microservices for onboarding, log ingestion, and cloud automation.",
+      "highlights": [
+        "Developed microservices using Spring Boot",
+        "Built 15+ Apache NiFi processors",
+        "Designed ETL pipelines for security logs",
+        "Integrated AWS services for automation",
+        "Handled production issues and optimizations"
+      ]
     }
   ],
 
-  "contact": null
+  "contact": {
+    "email": "your-email@gmail.com",
+    "github": "https://github.com/YOUR-USERNAME/ganesh-ai-portfolio",
+    "linkedin": "https://www.linkedin.com/in/YOUR-LINKEDIN",
+    "location": "India"
+  }
 }
