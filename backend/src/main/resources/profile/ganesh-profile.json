@@ -1,8 +1,8 @@
 {
   "hero": {
-    "summary": "Java Backend Developer with 3+ years of experience building scalable backend systems, microservices, and ETL pipelines in cybersecurity domain (Atos / Eviden). Specialized in Spring Boot, Apache NiFi, and cloud-based architectures.",
+    "summary": "Java Backend Developer with 4 years of experience building scalable backend systems, microservices, and ETL pipelines in cybersecurity domain Atos. Specialized in Spring Boot, Apache NiFi, and cloud-based architectures.",
     "stats": [
-      { "value": "3+", "label": "Years Experience" },
+      { "value": "4", "label": "Years Experience" },
       { "value": "15+", "label": "NiFi Processors Built" },
       { "value": "100K+", "label": "Events Processed / Min" }
     ]
@@ -23,7 +23,7 @@
     }
   ],
 
-  "about": "Java Backend Developer with 3+ years of experience in building scalable backend systems. Worked in cybersecurity domain at Atos (Eviden), developing microservices and ETL pipelines using Apache NiFi and Spring Boot.",
+  "about": "Java Developer with 4+ years of experience in building scalable backend systems. Worked in cybersecurity domain at Atos (Eviden), developing microservices and ETL pipelines using Apache NiFi and Spring Boot.",
 
   "strengths": [
     {
