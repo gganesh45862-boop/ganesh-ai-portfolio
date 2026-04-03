@@ -11,7 +11,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://ganesh-ai-portfolio.onrender.com';
 
 const sectionClass =
   'rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl shadow-slate-950/40 backdrop-blur md:p-8';
