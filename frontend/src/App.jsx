@@ -514,7 +514,7 @@ const fallbackPortfolio = {
   ],
   contact: {
     email: 'gganesh45862@gmail.com',
-    github: 'https://github.com/gganesh45862-boop',
+    github: 'https://github.com/gganesh45862-boop/ganesh-ai-portfolio',
     linkedin: 'https://www.linkedin.com/in/kuruva-ganesh',
     location: 'India',
   },
